@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+## Welcome to Ruby Fundamentals
 
-You can use the [editor on GitHub](https://github.com/DakotaLMartinez/ruby_fundamentals/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Today, we'll be interacting with ruby and learning how we can accomplish tasks related to data traversal. We'll be drawing on our knowledge of JavaScript frequently and comparing and contrasting how these fundamentals work in Ruby.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Moving from JavaScript, one of the first things to note is that the package manager we'll be using is called `bundler`. Bundler is generally used to install gems from [RubyGems](https://rubygems.org), though it can also install gems from other sources (like git repositories for example). So:
 
-### Markdown
+| Concept  | JS  | Ruby |
+|---|---|---|
+| Package Manager | npm  | bundler |
+| Package Repository  | [npmjs.com](https://npmjs.com)  | [rubygems.org](https://rubygems.org)  |
+| Package Generator  | `npm init`  | `bundle gem insert_gem_name_here`  |
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I've generated the source code for today's discussion using the command `bundle gem ruby_fundamentals`. We'll be talking a bit about the directory structure and how the files interact with one another, but if you want to refer to that on its own, I've recorded a quick video explaining how the `bundle gem` command works:
 
-```markdown
-Syntax highlighted code block
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zIzhh1h8ZGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DakotaLMartinez/ruby_fundamentals/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+I also have a longer video on how you can [publish a gem](https://www.youtube.com/watch?v=RrAOlk6qoiM) for later reference.
